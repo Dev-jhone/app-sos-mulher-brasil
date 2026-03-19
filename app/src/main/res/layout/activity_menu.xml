@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- Fundo -->
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/background2"
+        android:scaleType="centerCrop"
+        android:contentDescription="@null" />
+
+    <!-- Overlay -->
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#80000000" />
+
+    <!-- Botões -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:padding="24dp">
+
+        <Button
+            android:id="@+id/btnEmergencia"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/menu_emergencia"
+            android:backgroundTint="#D32F2F"
+            android:textColor="#FFFFFF" />
+
+        <Button
+            android:id="@+id/btnApoio"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/menu_apoio"
+            android:layout_marginTop="12dp"
+            android:backgroundTint="#FFFFFF"
+            android:textColor="#000000" />
+
+        <Button
+            android:id="@+id/btnDireitos"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/menu_direitos"
+            android:layout_marginTop="12dp"
+            android:backgroundTint="#FFFFFF"
+            android:textColor="#000000" />
+
+        <Button
+            android:id="@+id/btnSobre"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/menu_sobre"
+            android:layout_marginTop="12dp"
+            android:backgroundTint="#FFFFFF"
+            android:textColor="#000000" />
+
+    </LinearLayout>
+
+</FrameLayout>

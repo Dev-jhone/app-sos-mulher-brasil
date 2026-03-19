@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- Fundo -->
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/background1"
+        android:scaleType="centerCrop"
+        android:contentDescription="@null" />
+
+    <!-- Overlay escuro -->
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#CC000000" />
+
+    <!-- Conteúdo -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="24dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/apoio_titulo"
+                android:textSize="22sp"
+                android:textStyle="bold"
+                android:textColor="#FFFFFF" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/apoio_descricao"
+                android:layout_marginTop="8dp"
+                android:textSize="16sp"
+                android:textColor="#FFFFFF" />
+
+            <!-- Delegacia -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/apoio_delegacia"
+                android:textStyle="bold"
+                android:layout_marginTop="16dp"
+                android:textColor="#FFFFFF" />
+
+            <Button
+                android:id="@+id/btnDelegacia"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/apoio_buscar_delegacia"
+                android:backgroundTint="#FFFFFF"
+                android:textColor="#000000" />
+
+            <!-- CRAS -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/apoio_cras"
+                android:textStyle="bold"
+                android:layout_marginTop="16dp"
+                android:textColor="#FFFFFF" />
+
+            <Button
+                android:id="@+id/btnCras"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/apoio_buscar_cras"
+                android:backgroundTint="#FFFFFF"
+                android:textColor="#000000" />
+
+            <!-- Central -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/emergencia_central"
+                android:textStyle="bold"
+                android:layout_marginTop="16dp"
+                android:textColor="#FFFFFF" />
+
+            <Button
+                android:id="@+id/btn180"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/apoio_ligar_180"
+                android:backgroundTint="#C2185B"
+                android:textColor="#FFFFFF" />
+
+            <!-- Voltar -->
+            <Button
+                android:id="@+id/btnVoltar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/acao_voltar"
+                android:layout_marginTop="24dp"
+                android:backgroundTint="#212121"
+                android:textColor="#FFFFFF" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</FrameLayout>

@@ -1,0 +1,68 @@
+<resources>
+
+    <!-- App -->
+    <string name="app_name">SOS Mulher Brasil</string>
+    <string name="splash_desc">Tela de abertura do aplicativo</string>
+
+    <!-- Ações -->
+    <string name="acao_iniciar">Iniciar</string>
+    <string name="acao_voltar">Voltar</string>
+
+    <!-- Menu -->
+    <string name="menu_emergencia">Emergência</string>
+    <string name="menu_apoio">Pontos de Apoio</string>
+    <string name="menu_direitos">Direitos e Deveres</string>
+    <string name="menu_sobre">Informações do App</string>
+
+    <!-- Emergência -->
+    <string name="emergencia_policia">Polícia - 190</string>
+    <string name="emergencia_central">Central da Mulher - 180</string>
+    <string name="emergencia_samu">SAMU - 192</string>
+
+    <!-- Apoio -->
+    <string name="apoio_titulo">Pontos de Apoio</string>
+    <string name="apoio_descricao">Procure ajuda nos locais abaixo:</string>
+    <string name="apoio_delegacia">Delegacia da Mulher</string>
+    <string name="apoio_cras">CRAS / CREAS</string>
+    <string name="apoio_ligar_180">Ligar 180</string>
+    <string name="apoio_buscar_delegacia">Encontrar Delegacia próxima</string>
+    <string name="apoio_buscar_cras">Encontrar CRAS próximo</string>
+
+    <!-- Direitos -->
+    <string name="direitos_titulo">Direitos da Mulher</string>
+    <string name="direitos_descricao">
+        A mulher tem direito à proteção contra qualquer tipo de violência, seja física, psicológica, moral, sexual ou patrimonial.
+    </string>
+    <string name="direitos_subtitulo_direitos">Principais direitos:</string>
+    <string name="direitos_lista_direitos">
+        • Medidas protetivas garantidas pela Lei Maria da Penha\n
+        • Atendimento policial especializado\n
+        • Atendimento psicológico e social\n
+        • Afastamento do agressor\n
+        • Direito à denúncia anônima
+    </string>
+    <string name="direitos_subtitulo_deveres">Deveres:</string>
+    <string name="direitos_lista_deveres">
+        • Denunciar situações de violência\n
+        • Buscar ajuda em órgãos competentes\n
+        • Preservar sua segurança e integridade
+    </string>
+    <string name="direitos_ver_lei">Ver Lei Maria da Penha</string>
+
+    <!-- Sobre -->
+    <string name="sobre_titulo">SOS Mulher Brasil</string>
+    <string name="sobre_descricao">
+        Este aplicativo foi desenvolvido com o objetivo de auxiliar mulheres em situação de risco,
+        oferecendo acesso rápido a serviços de emergência e informações importantes.
+    </string>
+    <string name="sobre_funcionalidades_titulo">Funcionalidades:</string>
+    <string name="sobre_funcionalidades_lista">
+        • Contatos de emergência\n
+        • Localização de pontos de apoio\n
+        • Informações sobre direitos da mulher\n
+        • Acesso rápido a serviços essenciais
+    </string>
+    <string name="sobre_projeto">Desenvolvido como projeto de extensão acadêmica</string>
+    <string name="sobre_autor">Desenvolvedor: Jonathan Nogueira</string>
+
+</resources>
